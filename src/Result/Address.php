@@ -14,7 +14,7 @@ class Address
         \stdClass $result,
         ?string $label
     ) {
-        $this->addressComponents = $result;
+        $this->result = $result;
         $this->label = $label;
     }
 
